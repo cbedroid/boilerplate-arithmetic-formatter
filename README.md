@@ -1,7 +1,9 @@
 ## FreeCodeCamp Assignment
 
-Python `boilerplate-arithmetic-formatter` assignment for FreeCodeCamp. The section below explain all of the steps needed to complete this assignment.
+Python `boilerplate-arithmetic-formatter` assignment for [**FreeCodeCamp**][assignment-url]. The section below explain all of the steps needed to complete this assignment.
 
+
+**Run Code Here**: [Repl.it][repl-link] 
 
 
 ### Assignment
@@ -73,3 +75,8 @@ The unit tests for this project are in `test_module.py`. We imported the tests f
 ### Submitting
 
 Copy your project's URL and submit it to freeCodeCamp.
+
+[assignment-url]: https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter
+[repl-link]: https://repl.it/@cbedroid/boilerplate-arithmetic-formatter#arithmetic_arranger.py
+
+
