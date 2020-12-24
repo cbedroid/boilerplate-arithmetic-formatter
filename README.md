@@ -1,9 +1,9 @@
 ## FreeCodeCamp Assignment
 
-Python `boilerplate-arithmetic-formatter` assignment for [**FreeCodeCamp**][assignment-url]. The section below explain all of the steps needed to complete this assignment.
+Python `boilerplate-arithmetic-formatter` assignment for [**FreeCodeCamp**][assignment-url]. The section below explains all of the steps required to complete this assignment.
 
 
-**Run Code Here**: [Repl.it][repl-link] 
+**Run Code Here**: [**Repl.it**][repl-link] 
 
 
 ### Assignment
