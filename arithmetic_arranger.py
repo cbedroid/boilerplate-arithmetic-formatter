@@ -1,4 +1,12 @@
-def arithmetic_arranger(problems,show_answer=False):
+""" 
+  FreeCodeCamp -  boilerplate-arithmetic-formatter
+  author: Cornelius Brooks (cbedroid) 
+  github: https://github.com/cbedroid
+  twitter: http://twitter.com/cbedroid
+"""
+
+def arithmetic_arranger(problems,show_answers=False):
+  
   accepted_operation = ['-','+']
   col_1   = "" # First numbers
   col_2   = "" # Second numbers
@@ -44,7 +52,7 @@ def arithmetic_arranger(problems,show_answer=False):
         rs = " " if "-" in results else " " * 2 # answers  
 
         ##- COMBINING SPACES AND RESULTS  -##
-        if show_answer: 
+        if show_answers: 
           # add extra padding to the back
           col_1 += " " * (ts-1) + fn +" " * 5
         else: 
@@ -62,7 +70,7 @@ def arithmetic_arranger(problems,show_answer=False):
       
 
   ##- COMBINING FORMATTED RESULTS -##
-  if show_answer:
+  if show_answers:
     return "\n".join((col_1.rstrip(),col_2.rstrip(),col_3.rstrip(),answers.rstrip()))
   else:
     return "\n".join((col_1.rstrip(),col_2.rstrip(),col_3.rstrip()))
